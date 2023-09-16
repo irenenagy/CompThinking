@@ -1,9 +1,8 @@
-hrs= input("Enter Hours:")
+hrs= input("Enter hours:")
 h= float(hrs)
 r= input("Enter rate")
-r= float(r)
+r=float(r)
+salary=(float(hrs*r))
 if h>35:
-    x=(r*2.75)*(h-35)+(35*r)
-if h<=35:
-    x=h*r
-  
+   print(35*r+(hrs-35)*2.75*r)
+   print(salary)
